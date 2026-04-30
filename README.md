@@ -85,18 +85,16 @@ The Web App Attack Dashboard uses the `filebeat-*` index filtered to `event.modu
 ```
 web-app-attack-lab/
 ├── README.md
-├── report/
-│   └── web_app_attack_lab_report.docx
-├── kibana/
-│   ├── dashboard_export.ndjson
-│   └── detection_rules_export.ndjson
-├── configs/
-│   └── filebeat.yml
-└── screenshots/
-    ├── dashboard.png
-    ├── nikto_scan.png
-    ├── hydra_brute_force.png
-    └── sqlmap_output.png
+├── web_app_attack_lab_report.docx
+├── dashboard_export.ndjson
+├── detection_rules_export.ndjson
+├── filebeat.yml
+├── web-attack-dashboard.png
+├── nikto_scan.png
+├── hydra_brute_force.png
+├── sqlmap_output.png
+├── kibana_apache_logs.png
+└── detection_rule_sql_injection.png
 ```
 
 ---
