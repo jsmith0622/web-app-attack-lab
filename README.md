@@ -41,6 +41,28 @@ This lab sets up DVWA (Damn Vulnerable Web Application) as a target and runs six
 
 ---
 
+## Screenshots
+
+### Kibana Dashboard
+![Web Attack Dashboard](web-attack-dashboard.png)
+
+### Nikto Web Scanner
+![Nikto Scan](nikto_scan.png)
+
+### Hydra Brute Force
+![Hydra Brute Force](hydra_brute_force.png)
+
+### SQLmap Automated Injection
+![SQLmap Output](sqlmap_output.png)
+
+### Kibana Apache Logs
+![Kibana Apache Logs](kibana_apache_logs.png)
+
+### Detection Rule - SQL Injection
+![Detection Rule](detection_rule_sql_injection.png)
+
+---
+
 ## Detection Rules
 
 Three detection rules were created in Kibana Security under the `filebeat-*` index, each running on a 1-minute schedule with a 5-minute look-back window.
@@ -80,22 +102,20 @@ The Web App Attack Dashboard uses the `filebeat-*` index filtered to `event.modu
 
 ---
 
-## Repo Structure
+## Files
 
-```
-web-app-attack-lab/
-├── README.md
-├── web_app_attack_lab_report.docx
-├── dashboard_export.ndjson
-├── detection_rules_export.ndjson
-├── filebeat.yml
-├── web-attack-dashboard.png
-├── nikto_scan.png
-├── hydra_brute_force.png
-├── sqlmap_output.png
-├── kibana_apache_logs.png
-└── detection_rule_sql_injection.png
-```
+| File | Description |
+|------|-------------|
+| `web_app_attack_lab_report.docx` | Full lab report |
+| `filebeat.yml` | Filebeat configuration used for Apache log ingestion |
+| `dashboard_export.ndjson` | Kibana dashboard export |
+| `detection_rules_export.ndjson` | Kibana detection rules export |
+| `web-attack-dashboard.png` | Dashboard screenshot |
+| `nikto_scan.png` | Nikto scan output |
+| `hydra_brute_force.png` | Hydra brute force output |
+| `sqlmap_output.png` | SQLmap injection output |
+| `kibana_apache_logs.png` | Kibana Discover showing Apache logs |
+| `detection_rule_sql_injection.png` | SQL injection detection rule |
 
 ---
 
