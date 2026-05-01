@@ -106,7 +106,7 @@ The Web App Attack Dashboard uses the `filebeat-*` index filtered to `event.modu
 
 | File | Description |
 |------|-------------|
-| `web_app_attack_lab_report.docx` | Full lab report |
+| `web_app_attack_lab_report.pdf` | Full lab report |
 | `filebeat.yml` | Filebeat configuration used for Apache log ingestion |
 | `dashboard_export.ndjson` | Kibana dashboard export |
 | `detection_rules_export.ndjson` | Kibana detection rules export |
@@ -119,7 +119,12 @@ The Web App Attack Dashboard uses the `filebeat-*` index filtered to `event.modu
 
 ---
 
-## Related Labs
+## Other Labs in This Series
 
-- [SOC/SIEM Detection Lab](https://github.com/jsmith-sec/soc-home-lab)
-- [Incident Response Simulation](https://github.com/jsmith-sec/incident-response-lab)
+| Lab | Topic | Repo |
+|---|---|---|
+| Lab 1 | SOC/SIEM Detection | [soc-home-lab](https://github.com/jsmith-sec/soc-home-lab) |
+| Lab 2 | Incident Response Simulation | [incident-response-lab](https://github.com/jsmith-sec/incident-response-lab) |
+| Lab 3 | Web Application Attack | This repo |
+| Lab 4 | Vulnerability Assessment | [vulnerability-assessment-lab](https://github.com/jsmith-sec/vulnerability-assessment-lab) |
+| Lab 5 | Malware Analysis | [malware-analysis-lab](https://github.com/jsmith-sec/malware-analysis-lab) |
