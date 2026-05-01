@@ -121,5 +121,5 @@ The Web App Attack Dashboard uses the `filebeat-*` index filtered to `event.modu
 
 ## Related Labs
 
-- [SOC/SIEM Detection Lab](https://github.com/jsmith0622/soc-home-lab)
-- [Incident Response Simulation](https://github.com/jsmith0622/incident-response-lab)
+- [SOC/SIEM Detection Lab](https://github.com/jsmith-sec/soc-home-lab)
+- [Incident Response Simulation](https://github.com/jsmith-sec/incident-response-lab)
